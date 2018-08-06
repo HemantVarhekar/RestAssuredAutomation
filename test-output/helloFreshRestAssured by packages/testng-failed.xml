@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [helloFreshRestAssured by packages]">
+  <test name="getRequestValidationTest(failed)">
+    <classes>
+      <class name="getRequestValidationTest.ValidateInexistanceCountry">
+        <methods>
+          <include name="setup"/>
+          <include name="getnonExistingCountry"/>
+        </methods>
+      </class> <!-- getRequestValidationTest.ValidateInexistanceCountry -->
+      <class name="getRequestValidationTest.ValidateUSCountryResponse">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- getRequestValidationTest.ValidateUSCountryResponse -->
+      <class name="getRequestValidationTest.ValidateDECountryResponse">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- getRequestValidationTest.ValidateDECountryResponse -->
+      <class name="getRequestValidationTest.ValidateGetCountryInfo">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- getRequestValidationTest.ValidateGetCountryInfo -->
+      <class name="getRequestValidationTest.ValidateGBCountryResponse">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- getRequestValidationTest.ValidateGBCountryResponse -->
+    </classes>
+  </test> <!-- getRequestValidationTest(failed) -->
+</suite> <!-- Failed suite [helloFreshRestAssured by packages] -->

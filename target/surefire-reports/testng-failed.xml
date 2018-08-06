@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="getRequestValidationTest.ValidateInexistanceCountry">
+        <methods>
+          <include name="setup"/>
+          <include name="getnonExistingCountry"/>
+        </methods>
+      </class> <!-- getRequestValidationTest.ValidateInexistanceCountry -->
+      <class name="getRequestValidationTest.ValidateGBCountryResponse">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- getRequestValidationTest.ValidateGBCountryResponse -->
+      <class name="getRequestValidationTest.ValidateUSCountryResponse">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- getRequestValidationTest.ValidateUSCountryResponse -->
+      <class name="getRequestValidationTest.Post_ValidateNewCountryAddUsing">
+        <methods>
+          <include name="getnonExistingCountry"/>
+        </methods>
+      </class> <!-- getRequestValidationTest.Post_ValidateNewCountryAddUsing -->
+      <class name="getRequestValidationTest.ValidateGetCountryInfo">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- getRequestValidationTest.ValidateGetCountryInfo -->
+      <class name="getRequestValidationTest.countryAPIInitializaton">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- getRequestValidationTest.countryAPIInitializaton -->
+      <class name="getRequestValidationTest.ValidateDECountryResponse">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- getRequestValidationTest.ValidateDECountryResponse -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

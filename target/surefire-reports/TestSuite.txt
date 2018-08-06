@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 54.969 s <<< FAILURE! - in TestSuite
+getnonExistingCountry(getRequestValidationTest.Post_ValidateNewCountryAddUsing)  Time elapsed: 22.018 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <201> but was <200>.
+
+	at getRequestValidationTest.Post_ValidateNewCountryAddUsing.getnonExistingCountry(Post_ValidateNewCountryAddUsing.java:26)
+
+getnonExistingCountry(getRequestValidationTest.ValidateInexistanceCountry)  Time elapsed: 0.73 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> but was <200>.
+
+	at getRequestValidationTest.ValidateInexistanceCountry.getnonExistingCountry(ValidateInexistanceCountry.java:20)
+
